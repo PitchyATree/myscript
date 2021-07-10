@@ -128,7 +128,7 @@ local Section = Tab:NewSection("event")
 Section:NewButton("robloxian high school bombastic tp", "le bombastic gratuit", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/ikLnBrr5'))()
 end)
-https://raw.githubusercontent.com/PitchyATree/myscript/main/scary%20heater
+--https://raw.githubusercontent.com/PitchyATree/myscript/main/scary%20heater
 Section:NewButton("scary heater", "j'ai fais un autofarm en plus", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/myscript/main/scary%20heater'))()
 end)
