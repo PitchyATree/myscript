@@ -10,7 +10,7 @@ Section:NewButton("win every round as survivor", "warning you can't turn off the
     loadstring(game:HttpGet("https://pastebin.com/raw/WDwnt8G1", true))()
 end)
 Section:NewButton(" get anti afk", "use this if you want autofarm", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/A84cMe8w", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/m15DXJEf", true))()
 end)
 local Tab = Window:NewTab("teleporter")
 local Section = Tab:NewSection("lobby area")
