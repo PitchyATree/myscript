@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("bombastic clothes (2)", "Ocean")
+local Tab = Window:NewTab("Read all steps !")
+local Section = Tab:NewSection("steps")
+Section:NewButton("step 1", "sit and get key", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 29.6134, -24.5611, -2061.23)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("step 2", "open the door and reach the portal", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-245.505, -24.562, -1915.88 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("step 3", "jump and claim the reward", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(1638.89, 667.491, 16487.2 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+local Tab = Window:NewTab("credit")
+local Section = Tab:NewSection("to PitchHub and to you :)")
+local Section = Tab:NewSection("new videos coming soon!")
