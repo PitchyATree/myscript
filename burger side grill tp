@@ -1,0 +1,37 @@
+--if you meet the developer with e... leave the game cause he is really mad and will permaban :c
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("burger side grill", "Sentinel")
+local Tab = Window:NewTab("teleporter")
+local Section = Tab:NewSection("")
+Section:NewButton("kitchen", "tp to", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 70.2405, -0.230788, -45.9633)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("duck", "tp to", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-19.8615, 33.1338, -49.8963 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("piscine", "tp to", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(117.544, -4.60693, -59.8726 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("vip room", "tp to", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-115.407, -175.991, 201.895)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
