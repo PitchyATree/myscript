@@ -1,0 +1,23 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Quidz Autofarm", "Ocean")
+local Tab = Window:NewTab("")
+local Section = Tab:NewSection("made by PitchHub")
+Section:NewToggle("autofarm", "on and off", function(state)
+    if state then
+        getgenv().quidz = true
+
+	while wait(1) do
+		if getgenv().quidz == true then
+
+			local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+			local location = CFrame.new( 262.49, 10.5, 21.5)
+			local humanoid = game.Players.LocalPlayer.Character.Humanoid
+			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			wait(0.1)
+			pl.CFrame = location
+		end
+	end
+    else
+        getgenv().quidz = false
+    end
+end)
