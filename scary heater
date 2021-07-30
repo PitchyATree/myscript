@@ -7,7 +7,20 @@ Section:NewButton("eps", "ButtonInfo", function()
 end)
 local Section = Tab:NewSection("autofarm")
 Section:NewButton("win every round as survivor", "warning you can't turn off the autofarm", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/WDwnt8G1", true))()
+    getgenv().ee = false
+while wait() do
+if getgenv().ee == true then
+ 
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 113.718, 153.347, 4798)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end
+end
+
+
 end)
 Section:NewButton(" get anti afk", "use this if you want autofarm", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/m15DXJEf", true))()
