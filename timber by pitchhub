@@ -1,0 +1,133 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TimberPitchHub", "Ocean")
+local Tab = Window:NewTab("teleporters")
+local Section = Tab:NewSection("big tree")
+Section:NewButton("snow tree", "tp", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(2229.5, 90.1522, 136.002 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("volcano tree", "tp", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-570.247, 65.0843, 1966.76 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("ruins tree", "tp", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1449.33, 44.2419, 167.251 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("middle tree", "tp", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-47.6234, 15.5373, 134.501 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+Section:NewButton("pirate tree", "tp", function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-189.73, 37.0387, -1143.51 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+local Tab = Window:NewTab("aura")
+local Section = Tab:NewSection("aura")
+local Section = Tab:NewSection("be near the tree to make the aura work!")
+Section:NewToggle("snowtree", "ToggleInfo", function(state)
+    if state then
+        getgenv().bonhommedeneige = true
+
+        if getgenv().bonhommedeneige == true then
+            while wait() do
+            local A_1 = 4
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+    else
+        gengenv().bonhommedeneige = false
+    end
+end)
+Section:NewToggle("middletree", "ToggleInfo", function(state)
+    if state then
+        getgenv().middle = true
+
+        if getgenv().middle == true then
+            while wait() do
+            local A_1 = 1
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+    else
+        gengenv().middle = false
+    end
+end)
+Section:NewToggle("piratetree", "ToggleInfo", function(state)
+    if state then
+        getgenv().pirate = true
+
+        if getgenv().pirate == true then
+            while wait() do
+            local A_1 = 3
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+    else
+        gengenv().pirate = false
+    end
+end)
+Section:NewToggle("volcanotree", "ToggleInfo", function(state)
+    if state then
+        getgenv().flammedelamortquipue = true
+
+        if getgenv().flammedelamortquipue == true then
+            while wait() do
+            local A_1 = 2
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+    else
+        gengenv().flammedelamortquipue = false
+    end
+end)
+Section:NewToggle("ruinstree", "ToggleInfo", function(state)
+    if state then
+        getgenv().arbredesdetritus = true
+
+        if getgenv().arbredesdetritus == true then
+            while wait() do
+            local A_1 = 5
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+    else
+        gengenv().arbredesdetritus = false
+    end
+end)
+--pos de pirate : -189.73, 37.0387, -1143.51
+--pos de bonhommeneige : 2229.5, 90.1522, 136.002
+--pos du mid : -47.6234, 15.5373, 134.501
+--pos du volcan : -570.247, 65.0843, 1966.76
+--pos des ruines : -1449.33, 44.2419, 167.251
+--pos des quetes : 30.4881, 15.2873, 139.672
+local Tab = Window:NewTab("plots")
+local Section = Tab:NewSection("get ui")
+Section:NewButton("", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/timber%20plots%20shop%20by%20pitchhub", true))()
+end)
