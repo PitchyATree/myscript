@@ -1,0 +1,63 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("tiny tank", "Ocean")
+local Tab = Window:NewTab("tank")
+local Section = Tab:NewSection("")
+Section:NewButton("op fire rate", "ButtonInfo", function()
+    bigscript = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+bigscript.Settings.MaxFireRate.Value = 0.01
+end)
+Section:NewButton("reload boost", "ButtonInfo", function()
+    bigscript1 = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+bigscript1.Settings.ReloadTime.Value = 0
+end)
+Section:NewToggle("spawn bypass", "ToggleInfo", function(state)
+    if state then
+        getgenv().allowinspawn = true
+while wait() do
+if getgenv().allowinspawn == true then 
+bigscript2 = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+    bigscript2.Settings.AllowedInSpawn.Value = true
+end
+end
+else
+        getgenv().allowinspawn = false
+    end
+end)
+Section:NewSlider("tank speed", "SliderInfo", 250, 5, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    bigscript3 = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+bigscript3.Settings.MoveSpeed.Value = s
+end)
+Section:NewSlider("tank rotation", "SliderInfo", 250, 90, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    bigscript3 = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+bigscript3.Settings.RotationSpeed.Value = s
+end)
+local Tab = Window:NewTab("special ammo shop")
+local Section = Tab:NewSection("all to 250 coins")
+Section:NewButton("bouncy", "ButtonInfo", function()
+local A_1 = "Ammo_Bouncy"
+local Event = game:GetService("ReplicatedStorage").Remotes.PurchaseProduct
+Event:InvokeServer(A_1)
+end)
+Section:NewButton("piercing", "ButtonInfo", function()
+local A_1 = "Ammo_Piercing"
+local Event = game:GetService("ReplicatedStorage").Remotes.PurchaseProduct
+Event:InvokeServer(A_1)
+end)
+Section:NewButton("explosive", "ButtonInfo", function()
+local A_1 = "Ammo_AoE"
+local Event = game:GetService("ReplicatedStorage").Remotes.PurchaseProduct
+Event:InvokeServer(A_1)
+
+end)
+Section:NewButton("rocket", "ButtonInfo", function()
+local A_1 = "Ammo_Rocket"
+local Event = game:GetService("ReplicatedStorage").Remotes.PurchaseProduct
+Event:InvokeServer(A_1)
+end)
+local Tab = Window:NewTab("?")
+local Section = Tab:NewSection("for the tank")
+Section:NewButton("be pinnochio", "ButtonInfo", function()
+    bigscript2456 = workspace.Tanks["Tank-" .. game.Players.LocalPlayer.Name .. ""]
+    bigscript2456.Settings.CannonBounceFactor.Value = 10
+end)
+local Tab = Window:NewTab("credit")
