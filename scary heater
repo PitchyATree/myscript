@@ -48,6 +48,12 @@ Section:NewButton("get fly (x)", "if ragdoll repress the button", function()
 end)
 local Tab = Window:NewTab("other")
 local Section = Tab:NewSection("more tools")
+Section:NewButton("fire", "", function()
+    game.ReplicatedStorage.Potions.Potion2.Parent = game.Players.LocalPlayer.Backpack
+end)
+Section:NewButton("dance rodeo fortnite potion", "", function()
+    game.ReplicatedStorage.Potions.Potion1.Parent = game.Players.LocalPlayer.Backpack
+end)
 Section:NewButton("tp tool", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/aYRzJHs0"))()
 end)
@@ -63,3 +69,4 @@ Section:NewButton("all emotes and more", "", function()
 end)
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("PitchHub")
+
