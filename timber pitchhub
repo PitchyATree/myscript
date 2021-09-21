@@ -1,0 +1,215 @@
+--[[
+
+  _____ _ _       _     _    _       _     
+ |  __ (_) |     | |   | |  | |     | |    
+ | |__) || |_ ___| |__ | |__| |_   _| |__  
+ |  ___/ | __/ __| '_ \|  __  | | | | '_ \ 
+ | |   | | || (__| | | | |  | | |_| | |_) |
+ |_|   |_|\__\___|_| |_|_|  |_|\__,_|_.__/ 
+                                           
+
+                                                             ]]
+
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library'))()
+local ba = library:Window("auras")
+local cb = library:Window("teleporters")
+local cba = library:Window("player")
+local bc = library:Window("more")
+local ac = library:Window("credit")
+
+ba:Toggle("Mini Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().mini = bool
+
+while wait() do
+        if getgenv().mini == true then
+            local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage").Communication.Remotes.HitMiniMegaTree:FireServer(unpack(args))
+            end
+            end
+end)
+
+
+
+
+
+
+
+
+ba:Toggle("Middle Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().middle = bool
+
+while wait() do
+        if getgenv().middle == true then
+            local A_1 = 1
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+ba:Toggle("Volcano Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().volcano = bool
+
+while wait() do
+        if getgenv().volcano == true then
+            local A_1 = 2
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+cb:Button("middle island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-47.6234, 15.5373, 134.501)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cb:Button("quest", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(30.4881, 15.2873, 139.672)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cb:Button("volcano island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-570.247, 65.0843, 1966.76)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cb:Button("snowman island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(2229.5, 90.1522, 136.002 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cb:Button("ruin island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1449.33, 44.2419, 167.251)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cb:Button("pirate island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-189.73, 37.0387, -1143.51)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+ba:Toggle("Pirate Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().yohoho = bool
+
+while wait() do
+        if getgenv().yohoho == true then
+            local A_1 = 3
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+ba:Toggle("Ruin Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().krrrr = bool
+
+while wait() do
+        if getgenv().krrrr == true then
+            local A_1 = 5
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+ba:Toggle("Snowman Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().snow = bool
+
+while wait() do
+        if getgenv().snow == true then
+            local A_1 = 4
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+cba:Slider("Speed",0,200,20, function(value)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
+cba:Slider("Level 6 fly",0,10,1.22, function(value)
+   game.Players.LocalPlayer.Character.Humanoid.HipHeight = value
+end)
+
+ba:Toggle("Temple Tree", true, function(bool)  -- you can change window to the ui you want the toggle in 
+    getgenv().aoum = bool
+
+while wait() do
+        if getgenv().aoum == true then
+            local A_1 = 6
+            local Event = game:GetService("ReplicatedStorage").Communication.Remotes.HitMegaTree
+            Event:FireServer(A_1)
+            end
+            end
+end)
+
+cb:Button("temple island island", function()     
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(1204.4, 54.6077, 1008.15)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+cba:Button("get noclip(c)", function()
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+ 
+if key == "c" then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+end)
+
+bc:Button("plot shop (old)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/timber%20plots%20shop%20by%20pitchhub", true))()
+end)
+
+ac:Button("PitchHub(clic2link)", function()
+setclipboard("https://www.youtube.com/channel/UCyPwttNCvLm3f9Ilz_M569g/featured")
+end)
+
+
+
+
+
+
+library:Keybind("P")
