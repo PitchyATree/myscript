@@ -686,11 +686,11 @@ _3_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 _3_2_3.Position = UDim2.new(0.0749440789, 0, 0.742035985, 0)
 _3_2_3.Size = UDim2.new(0, 50, 0, 50)
 _3_2_3.Font = Enum.Font.SourceSans
-_3_2_3.Text = "-3-2"
+_3_2_3.Text = "-3_2"
 _3_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 _3_2_3.TextSize = 14.000
 _3_2_3.MouseButton1Click:connect(function()
-	local A_1 = "-3-2"
+	local A_1 = "-3_2"
 	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
 	Event:FireServer(A_1)
 end)
