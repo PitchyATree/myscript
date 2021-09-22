@@ -1,1 +1,1385 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/zNQWReMt", true))()
+--loadstring(game:HttpGet("https://pastebin.com/raw/zNQWReMt", true))()
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local _4_4 = Instance.new("TextButton")
+local _3_4 = Instance.new("TextButton")
+local _2_4 = Instance.new("TextButton")
+local _1_4 = Instance.new("TextButton")
+local _0_4 = Instance.new("TextButton")
+local _1_4_2 = Instance.new("TextButton")
+local _2_4_2 = Instance.new("TextButton")
+local _3_4_2 = Instance.new("TextButton")
+local _4_4_2 = Instance.new("TextButton")
+local _4_3 = Instance.new("TextButton")
+local _4_2 = Instance.new("TextButton")
+local _4_1 = Instance.new("TextButton")
+local _4_0 = Instance.new("TextButton")
+local _4_1_2 = Instance.new("TextButton")
+local _4_2_2 = Instance.new("TextButton")
+local _4_3_2 = Instance.new("TextButton")
+local _4_4_3 = Instance.new("TextButton")
+local _3_3 = Instance.new("TextButton")
+local _2_3 = Instance.new("TextButton")
+local _1_3 = Instance.new("TextButton")
+local _0_3 = Instance.new("TextButton")
+local _1_3_2 = Instance.new("TextButton")
+local _2_3_2 = Instance.new("TextButton")
+local _3_3_2 = Instance.new("TextButton")
+local _4_3_3 = Instance.new("TextButton")
+local _3_2 = Instance.new("TextButton")
+local _2_2 = Instance.new("TextButton")
+local _1_2 = Instance.new("TextButton")
+local _0_2 = Instance.new("TextButton")
+local _1_2_2 = Instance.new("TextButton")
+local _2_2_2 = Instance.new("TextButton")
+local _3_2_2 = Instance.new("TextButton")
+local _4_2_3 = Instance.new("TextButton")
+local _3_1 = Instance.new("TextButton")
+local _3_0 = Instance.new("TextButton")
+local _3_1_2 = Instance.new("TextButton")
+local _3_2_3 = Instance.new("TextButton")
+local _3_3_3 = Instance.new("TextButton")
+local _3_4_3 = Instance.new("TextButton")
+local _2_4_3 = Instance.new("TextButton")
+local _2_3_3 = Instance.new("TextButton")
+local _2_2_3 = Instance.new("TextButton")
+local _2_1 = Instance.new("TextButton")
+local _2_0 = Instance.new("TextButton")
+local _2_1_2 = Instance.new("TextButton")
+local _1_1 = Instance.new("TextButton")
+local _0_1 = Instance.new("TextButton")
+local _1_1_2 = Instance.new("TextButton")
+local _2_1_3 = Instance.new("TextButton")
+local _3_1_3 = Instance.new("TextButton")
+local _4_1_3 = Instance.new("TextButton")
+local _4_0_2 = Instance.new("TextButton")
+local _4_4_4 = Instance.new("TextButton")
+local _3_0_2 = Instance.new("TextButton")
+local _1_0 = Instance.new("TextButton")
+local _0_0 = Instance.new("TextButton")
+local _1_0_2 = Instance.new("TextButton")
+local _2_0_2 = Instance.new("TextButton")
+local _3_4_4 = Instance.new("TextButton")
+local _1_1_3 = Instance.new("TextButton")
+local _0_1_2 = Instance.new("TextButton")
+local _2_4_4 = Instance.new("TextButton")
+local _1_1_4 = Instance.new("TextButton")
+local _2_1_4 = Instance.new("TextButton")
+local _3_1_4 = Instance.new("TextButton")
+local _4_1_4 = Instance.new("TextButton")
+local _4_2_4 = Instance.new("TextButton")
+local _3_2_4 = Instance.new("TextButton")
+local _2_2_4 = Instance.new("TextButton")
+local _1_4_3 = Instance.new("TextButton")
+local _1_2_3 = Instance.new("TextButton")
+local _0_2_2 = Instance.new("TextButton")
+local _1_2_4 = Instance.new("TextButton")
+local _1_3_3 = Instance.new("TextButton")
+local _0_3_2 = Instance.new("TextButton")
+local _1_3_4 = Instance.new("TextButton")
+local _2_3_4 = Instance.new("TextButton")
+local _3_3_4 = Instance.new("TextButton")
+local _4_3_4 = Instance.new("TextButton")
+local _1_4_4 = Instance.new("TextButton")
+local _0_4_2 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(115, 255, 190)
+Frame.Position = UDim2.new(0.25939393, 0, 0.0661040768, 0)
+Frame.Size = UDim2.new(0, 894, 0, 664)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(61, 200, 112)
+TextLabel.Size = UDim2.new(0, 798, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Timber Plots Shop"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(125, 232, 255)
+TextLabel_2.Position = UDim2.new(0.892617464, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 96, 0, 29)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "good plot :"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 25.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 160, 44)
+TextLabel_3.Position = UDim2.new(0, 0, 0.0436747, 0)
+TextLabel_3.Size = UDim2.new(0, 798, 0, 32)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "By PitchHub "
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(125, 232, 255)
+TextLabel_4.Position = UDim2.new(0.892617464, 0, 0.0436747, 0)
+TextLabel_4.Size = UDim2.new(0, 96, 0, 634)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "3_3 4_0 -4_1 0_-2"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+_4_4.Name = "-4_-4"
+_4_4.Parent = Frame
+_4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_4.Position = UDim2.new(0, 0, 0.130653262, 0)
+_4_4.Size = UDim2.new(0, 50, 0, 50)
+_4_4.Font = Enum.Font.SourceSans
+_4_4.Text = "-4_-4"
+_4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_4.TextSize = 14.000
+_4_4.MouseButton1Click:connect(function()
+	local A_1 = "-4_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_4.Name = "-3_-4"
+_3_4.Parent = Frame
+_3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_4.Position = UDim2.new(0.0749440715, 0, 0.130653262, 0)
+_3_4.Size = UDim2.new(0, 50, 0, 50)
+_3_4.Font = Enum.Font.SourceSans
+_3_4.Text = "-3_-4"
+_3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_4.TextSize = 14.000
+_3_4.MouseButton1Click:connect(function()
+	local A_1 = "-3_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_4.Name = "-2_-4"
+_2_4.Parent = Frame
+_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_4.Position = UDim2.new(0.148769572, 0, 0.130653262, 0)
+_2_4.Size = UDim2.new(0, 50, 0, 50)
+_2_4.Font = Enum.Font.SourceSans
+_2_4.Text = "-2_-4"
+_2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_4.TextSize = 14.000
+_2_4.MouseButton1Click:connect(function()
+	local A_1 = "-2_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_4.Name = "-1_-4"
+_1_4.Parent = Frame
+_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_4.Position = UDim2.new(0.225950778, 0, 0.130653262, 0)
+_1_4.Size = UDim2.new(0, 50, 0, 50)
+_1_4.Font = Enum.Font.SourceSans
+_1_4.Text = "-1_-4"
+_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4.TextSize = 14.000
+_1_4.MouseButton1Click:connect(function()
+	local A_1 = "-1_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_4.Name = "0_-4"
+_0_4.Parent = Frame
+_0_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_4.Position = UDim2.new(0.309843391, 0, 0.130653262, 0)
+_0_4.Size = UDim2.new(0, 50, 0, 50)
+_0_4.Font = Enum.Font.SourceSans
+_0_4.Text = "0_-4"
+_0_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_4.TextSize = 14.000
+_0_4.MouseButton1Click:connect(function()
+	local A_1 = "0_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_4_2.Name = "1_-4"
+_1_4_2.Parent = Frame
+_1_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_4_2.Position = UDim2.new(0.389261723, 0, 0.130653262, 0)
+_1_4_2.Size = UDim2.new(0, 50, 0, 50)
+_1_4_2.Font = Enum.Font.SourceSans
+_1_4_2.Text = "1_-4"
+_1_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4_2.TextSize = 14.000
+_1_4_2.MouseButton1Click:connect(function()
+	local A_1 = "1_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_4_2.Name = "2_-4"
+_2_4_2.Parent = Frame
+_2_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_4_2.Position = UDim2.new(0.472035766, 0, 0.130653262, 0)
+_2_4_2.Size = UDim2.new(0, 50, 0, 50)
+_2_4_2.Font = Enum.Font.SourceSans
+_2_4_2.Text = "2_-4"
+_2_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_4_2.TextSize = 14.000
+_2_4_2.MouseButton1Click:connect(function()
+	local A_1 = "2_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_4_2.Name = "3_-4"
+_3_4_2.Parent = Frame
+_3_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_4_2.Position = UDim2.new(0.551454127, 0, 0.130653262, 0)
+_3_4_2.Size = UDim2.new(0, 50, 0, 50)
+_3_4_2.Font = Enum.Font.SourceSans
+_3_4_2.Text = "3_-4"
+_3_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_4_2.TextSize = 14.000
+_3_4_2.MouseButton1Click:connect(function()
+	local A_1 = "3_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_4_2.Name = "4_-4"
+_4_4_2.Parent = Frame
+_4_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_4_2.Position = UDim2.new(0.628635347, 0, 0.130653262, 0)
+_4_4_2.Size = UDim2.new(0, 50, 0, 50)
+_4_4_2.Font = Enum.Font.SourceSans
+_4_4_2.Text = "4_-4"
+_4_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_4_2.TextSize = 14.000
+_4_4_2.MouseButton1Click:connect(function()
+	local A_1 = "4_-4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_3.Name = "-4_-3"
+_4_3.Parent = Frame
+_4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_3.Position = UDim2.new(0, 0, 0.234505862, 0)
+_4_3.Size = UDim2.new(0, 50, 0, 50)
+_4_3.Font = Enum.Font.SourceSans
+_4_3.Text = "-4_-3"
+_4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_3.TextSize = 14.000
+_4_3.MouseButton1Click:connect(function()
+	local A_1 = "-4_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_2.Name = "-4_-2"
+_4_2.Parent = Frame
+_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_2.Position = UDim2.new(0, 0, 0.340033501, 0)
+_4_2.Size = UDim2.new(0, 50, 0, 50)
+_4_2.Font = Enum.Font.SourceSans
+_4_2.Text = "-4_-2"
+_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_2.TextSize = 14.000
+_4_2.MouseButton1Click:connect(function()
+	local A_1 = "-4_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_1.Name = "-4_-1"
+_4_1.Parent = Frame
+_4_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_1.Position = UDim2.new(0, 0, 0.440536022, 0)
+_4_1.Size = UDim2.new(0, 50, 0, 50)
+_4_1.Font = Enum.Font.SourceSans
+_4_1.Text = "-4_-1"
+_4_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_1.TextSize = 14.000
+_4_1.MouseButton1Click:connect(function()
+	local A_1 = "-4_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_0.Name = "-4_0"
+_4_0.Parent = Frame
+_4_0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_0.Position = UDim2.new(0, 0, 0.546063662, 0)
+_4_0.Size = UDim2.new(0, 50, 0, 50)
+_4_0.Font = Enum.Font.SourceSans
+_4_0.Text = "-4_0"
+_4_0.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_0.TextSize = 14.000
+_4_0.MouseButton1Click:connect(function()
+	local A_1 = "-4_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_1_2.Name = "-4_1"
+_4_1_2.Parent = Frame
+_4_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_1_2.Position = UDim2.new(0, 0, 0.644891143, 0)
+_4_1_2.Size = UDim2.new(0, 50, 0, 50)
+_4_1_2.Font = Enum.Font.SourceSans
+_4_1_2.Text = "-4_1"
+_4_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_1_2.TextSize = 14.000
+_4_1_2.MouseButton1Click:connect(function()
+	local A_1 = "-4_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_2_2.Name = "-4_2"
+_4_2_2.Parent = Frame
+_4_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_2_2.Position = UDim2.new(0, 0, 0.742043555, 0)
+_4_2_2.Size = UDim2.new(0, 50, 0, 50)
+_4_2_2.Font = Enum.Font.SourceSans
+_4_2_2.Text = "-4_2"
+_4_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_2_2.TextSize = 14.000
+_4_2_2.MouseButton1Click:connect(function()
+	local A_1 = "-4_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_3_2.Name = "-4_3"
+_4_3_2.Parent = Frame
+_4_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_3_2.Position = UDim2.new(0, 0, 0.837520957, 0)
+_4_3_2.Size = UDim2.new(0, 50, 0, 50)
+_4_3_2.Font = Enum.Font.SourceSans
+_4_3_2.Text = "-4_3"
+_4_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_3_2.TextSize = 14.000
+_4_3_2.MouseButton1Click:connect(function()
+	local A_1 = "-4_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_4_3.Name = "-4_4"
+_4_4_3.Parent = Frame
+_4_4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_4_3.Position = UDim2.new(0, 0, 0.923472762, 0)
+_4_4_3.Size = UDim2.new(0, 50, 0, 50)
+_4_4_3.Font = Enum.Font.SourceSans
+_4_4_3.Text = "-4_4"
+_4_4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_4_3.TextSize = 14.000
+_4_4_3.MouseButton1Click:connect(function()
+	local A_1 = "-4_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_3.Name = "-3_-3"
+_3_3.Parent = Frame
+_3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_3.Position = UDim2.new(0.0749440715, 0, 0.234505862, 0)
+_3_3.Size = UDim2.new(0, 50, 0, 50)
+_3_3.Font = Enum.Font.SourceSans
+_3_3.Text = "-3_-3"
+_3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_3.TextSize = 14.000
+_3_3.MouseButton1Click:connect(function()
+	local A_1 = "-3_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_3.Name = "-2_-3"
+_2_3.Parent = Frame
+_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_3.Position = UDim2.new(0.148769572, 0, 0.234505862, 0)
+_2_3.Size = UDim2.new(0, 50, 0, 50)
+_2_3.Font = Enum.Font.SourceSans
+_2_3.Text = "-2_-3"
+_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_3.TextSize = 14.000
+_2_3.MouseButton1Click:connect(function()
+	local A_1 = "-2_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_3.Name = "-1_-3"
+_1_3.Parent = Frame
+_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3.Position = UDim2.new(0.225950778, 0, 0.234505862, 0)
+_1_3.Size = UDim2.new(0, 50, 0, 50)
+_1_3.Font = Enum.Font.SourceSans
+_1_3.Text = "-1_-3"
+_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3.TextSize = 14.000
+_1_3.MouseButton1Click:connect(function()
+	local A_1 = "-1_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_3.Name = "0_-3"
+_0_3.Parent = Frame
+_0_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_3.Position = UDim2.new(0.309843391, 0, 0.234505862, 0)
+_0_3.Size = UDim2.new(0, 50, 0, 50)
+_0_3.Font = Enum.Font.SourceSans
+_0_3.Text = "0_-3"
+_0_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_3.TextSize = 14.000
+_0_3.MouseButton1Click:connect(function()
+	local A_1 = "0_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_3_2.Name = "1_-3"
+_1_3_2.Parent = Frame
+_1_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3_2.Position = UDim2.new(0.389261723, 0, 0.234505862, 0)
+_1_3_2.Size = UDim2.new(0, 50, 0, 50)
+_1_3_2.Font = Enum.Font.SourceSans
+_1_3_2.Text = "1_-3"
+_1_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3_2.TextSize = 14.000
+_1_3_2.MouseButton1Click:connect(function()
+	local A_1 = "1_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_3_2.Name = "2_-3"
+_2_3_2.Parent = Frame
+_2_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_3_2.Position = UDim2.new(0.472035766, 0, 0.234505862, 0)
+_2_3_2.Size = UDim2.new(0, 50, 0, 50)
+_2_3_2.Font = Enum.Font.SourceSans
+_2_3_2.Text = "2_-3"
+_2_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_3_2.TextSize = 14.000
+_2_3_2.MouseButton1Click:connect(function()
+	local A_1 = "2_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_3_2.Name = "3_-3"
+_3_3_2.Parent = Frame
+_3_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_3_2.Position = UDim2.new(0.551454127, 0, 0.234505862, 0)
+_3_3_2.Size = UDim2.new(0, 50, 0, 50)
+_3_3_2.Font = Enum.Font.SourceSans
+_3_3_2.Text = "3_-3"
+_3_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_3_2.TextSize = 14.000
+_3_3_2.MouseButton1Click:connect(function()
+	local A_1 = "3_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_3_3.Name = "4_-3"
+_4_3_3.Parent = Frame
+_4_3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_3_3.Position = UDim2.new(0.628635347, 0, 0.234505862, 0)
+_4_3_3.Size = UDim2.new(0, 50, 0, 50)
+_4_3_3.Font = Enum.Font.SourceSans
+_4_3_3.Text = "4_-3"
+_4_3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_3_3.TextSize = 14.000
+_4_3_3.MouseButton1Click:connect(function()
+	local A_1 = "4_-3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_2.Name = "-3_-2"
+_3_2.Parent = Frame
+_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_2.Position = UDim2.new(0.0749440789, 0, 0.339927554, 0)
+_3_2.Size = UDim2.new(0, 50, 0, 50)
+_3_2.Font = Enum.Font.SourceSans
+_3_2.Text = "-3_-2"
+_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_2.TextSize = 14.000
+_3_2.MouseButton1Click:connect(function()
+	local A_1 = "-3_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_2.Name = "-2_-2"
+_2_2.Parent = Frame
+_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_2.Position = UDim2.new(0.148769587, 0, 0.339927554, 0)
+_2_2.Size = UDim2.new(0, 50, 0, 50)
+_2_2.Font = Enum.Font.SourceSans
+_2_2.Text = "-2_-2"
+_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_2.TextSize = 14.000
+_2_2.MouseButton1Click:connect(function()
+	local A_1 = "-2_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_2.Name = "-1_-2"
+_1_2.Parent = Frame
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.Position = UDim2.new(0.225950792, 0, 0.339927554, 0)
+_1_2.Size = UDim2.new(0, 50, 0, 50)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "-1_-2"
+_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.TextSize = 14.000
+_1_2.MouseButton1Click:connect(function()
+	local A_1 = "-1_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_2.Name = "0_-2"
+_0_2.Parent = Frame
+_0_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_2.Position = UDim2.new(0.309843421, 0, 0.339927554, 0)
+_0_2.Size = UDim2.new(0, 50, 0, 50)
+_0_2.Font = Enum.Font.SourceSans
+_0_2.Text = "0_-2"
+_0_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_2.TextSize = 14.000
+_0_2.MouseButton1Click:connect(function()
+	local A_1 = "0_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_2_2.Name = "1_-2"
+_1_2_2.Parent = Frame
+_1_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2_2.Position = UDim2.new(0.389261782, 0, 0.339927554, 0)
+_1_2_2.Size = UDim2.new(0, 50, 0, 50)
+_1_2_2.Font = Enum.Font.SourceSans
+_1_2_2.Text = "1_-2"
+_1_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2_2.TextSize = 14.000
+_1_2_2.MouseButton1Click:connect(function()
+	local A_1 = "1_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_2_2.Name = "2_-2"
+_2_2_2.Parent = Frame
+_2_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_2_2.Position = UDim2.new(0.472035825, 0, 0.339927554, 0)
+_2_2_2.Size = UDim2.new(0, 50, 0, 50)
+_2_2_2.Font = Enum.Font.SourceSans
+_2_2_2.Text = "2_-2"
+_2_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_2_2.TextSize = 14.000
+_2_2_2.MouseButton1Click:connect(function()
+	local A_1 = "2_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_2_2.Name = "3_-2"
+_3_2_2.Parent = Frame
+_3_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_2_2.Position = UDim2.new(0.551454127, 0, 0.339927554, 0)
+_3_2_2.Size = UDim2.new(0, 50, 0, 50)
+_3_2_2.Font = Enum.Font.SourceSans
+_3_2_2.Text = "3_-2"
+_3_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_2_2.TextSize = 14.000
+_3_2_2.MouseButton1Click:connect(function()
+	local A_1 = "3_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_2_3.Name = "4_-2"
+_4_2_3.Parent = Frame
+_4_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_2_3.Position = UDim2.new(0.628635347, 0, 0.339927554, 0)
+_4_2_3.Size = UDim2.new(0, 50, 0, 50)
+_4_2_3.Font = Enum.Font.SourceSans
+_4_2_3.Text = "4_-2"
+_4_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_2_3.TextSize = 14.000
+_4_2_3.MouseButton1Click:connect(function()
+	local A_1 = "4_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_1.Name = "-3_-1"
+_3_1.Parent = Frame
+_3_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_1.Position = UDim2.new(0.0749440789, 0, 0.439325154, 0)
+_3_1.Size = UDim2.new(0, 50, 0, 50)
+_3_1.Font = Enum.Font.SourceSans
+_3_1.Text = "-3_-1"
+_3_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_1.TextSize = 14.000
+_3_1.MouseButton1Click:connect(function()
+	local A_1 = "-3_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_0.Name = "-3_0"
+_3_0.Parent = Frame
+_3_0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_0.Position = UDim2.new(0.0749440789, 0, 0.544746816, 0)
+_3_0.Size = UDim2.new(0, 50, 0, 50)
+_3_0.Font = Enum.Font.SourceSans
+_3_0.Text = "-3_0"
+_3_0.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_0.TextSize = 14.000
+_3_0.MouseButton1Click:connect(function()
+	local A_1 = "-3_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_1_2.Name = "-3_1"
+_3_1_2.Parent = Frame
+_3_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_1_2.Position = UDim2.new(0.0749440789, 0, 0.644144416, 0)
+_3_1_2.Size = UDim2.new(0, 50, 0, 50)
+_3_1_2.Font = Enum.Font.SourceSans
+_3_1_2.Text = "-3_1"
+_3_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_1_2.TextSize = 14.000
+_3_1_2.MouseButton1Click:connect(function()
+	local A_1 = "-3_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_2_3.Name = "-3_2"
+_3_2_3.Parent = Frame
+_3_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_2_3.Position = UDim2.new(0.0749440789, 0, 0.742035985, 0)
+_3_2_3.Size = UDim2.new(0, 50, 0, 50)
+_3_2_3.Font = Enum.Font.SourceSans
+_3_2_3.Text = "-3-2"
+_3_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_2_3.TextSize = 14.000
+_3_2_3.MouseButton1Click:connect(function()
+	local A_1 = "-3-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_3_3.Name = "-3_3"
+_3_3_3.Parent = Frame
+_3_3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_3_3.Position = UDim2.new(0.0749440789, 0, 0.836915493, 0)
+_3_3_3.Size = UDim2.new(0, 50, 0, 50)
+_3_3_3.Font = Enum.Font.SourceSans
+_3_3_3.Text = "-3_3"
+_3_3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_3_3.TextSize = 14.000
+_3_3_3.MouseButton1Click:connect(function()
+	local A_1 = "-3_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_4_3.Name = "-3_4"
+_3_4_3.Parent = Frame
+_3_4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_4_3.Position = UDim2.new(0.0749440789, 0, 0.922758877, 0)
+_3_4_3.Size = UDim2.new(0, 50, 0, 50)
+_3_4_3.Font = Enum.Font.SourceSans
+_3_4_3.Text = "-3_4"
+_3_4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_4_3.TextSize = 14.000
+_3_4_3.MouseButton1Click:connect(function()
+	local A_1 = "-3_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_4_3.Name = "-2_4"
+_2_4_3.Parent = Frame
+_2_4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_4_3.Position = UDim2.new(0.148769587, 0, 0.924264908, 0)
+_2_4_3.Size = UDim2.new(0, 50, 0, 50)
+_2_4_3.Font = Enum.Font.SourceSans
+_2_4_3.Text = "-2_4"
+_2_4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_4_3.TextSize = 14.000
+_2_4_3.MouseButton1Click:connect(function()
+	local A_1 = "-2_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_3_3.Name = "-2_3"
+_2_3_3.Parent = Frame
+_2_3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_3_3.Position = UDim2.new(0.148769587, 0, 0.836915493, 0)
+_2_3_3.Size = UDim2.new(0, 50, 0, 50)
+_2_3_3.Font = Enum.Font.SourceSans
+_2_3_3.Text = "-2_3"
+_2_3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_3_3.TextSize = 14.000
+_2_3_3.MouseButton1Click:connect(function()
+	local A_1 = "-2_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_2_3.Name = "-2_2"
+_2_2_3.Parent = Frame
+_2_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_2_3.Position = UDim2.new(0.148769587, 0, 0.742035985, 0)
+_2_2_3.Size = UDim2.new(0, 50, 0, 50)
+_2_2_3.Font = Enum.Font.SourceSans
+_2_2_3.Text = "-2_2"
+_2_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_2_3.TextSize = 14.000
+_2_2_3.MouseButton1Click:connect(function()
+	local A_1 = "-2_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_1.Name = "-2_1"
+_2_1.Parent = Frame
+_2_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_1.Position = UDim2.new(0.148769587, 0, 0.642638385, 0)
+_2_1.Size = UDim2.new(0, 50, 0, 50)
+_2_1.Font = Enum.Font.SourceSans
+_2_1.Text = "-2_1"
+_2_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_1.TextSize = 14.000
+_2_1.MouseButton1Click:connect(function()
+	local A_1 = "-2_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_0.Name = "-2_0"
+_2_0.Parent = Frame
+_2_0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_0.Position = UDim2.new(0.148769587, 0, 0.543240786, 0)
+_2_0.Size = UDim2.new(0, 50, 0, 50)
+_2_0.Font = Enum.Font.SourceSans
+_2_0.Text = "-2_0"
+_2_0.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_0.TextSize = 14.000
+_2_0.MouseButton1Click:connect(function()
+	local A_1 = "-2_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_1_2.Name = "-2_-1"
+_2_1_2.Parent = Frame
+_2_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_1_2.Position = UDim2.new(0.148769587, 0, 0.439325124, 0)
+_2_1_2.Size = UDim2.new(0, 50, 0, 50)
+_2_1_2.Font = Enum.Font.SourceSans
+_2_1_2.Text = "-2_-1"
+_2_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_1_2.TextSize = 14.000
+_2_1_2.MouseButton1Click:connect(function()
+	local A_1 = "-2_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_1.Name = "-1_-1"
+_1_1.Parent = Frame
+_1_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_1.Position = UDim2.new(0.225950792, 0, 0.439325124, 0)
+_1_1.Size = UDim2.new(0, 50, 0, 50)
+_1_1.Font = Enum.Font.SourceSans
+_1_1.Text = "-1_-1"
+_1_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_1.TextSize = 14.000
+_1_1.MouseButton1Click:connect(function()
+	local A_1 = "-1_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_1.Name = "0_-1"
+_0_1.Parent = Frame
+_0_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_1.Position = UDim2.new(0.309843421, 0, 0.439325124, 0)
+_0_1.Size = UDim2.new(0, 50, 0, 50)
+_0_1.Font = Enum.Font.SourceSans
+_0_1.Text = "0_-1"
+_0_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_1.TextSize = 14.000
+_0_1.MouseButton1Click:connect(function()
+	local A_1 = "0_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_1_2.Name = "1_-1"
+_1_1_2.Parent = Frame
+_1_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_1_2.Position = UDim2.new(0.389261782, 0, 0.439325124, 0)
+_1_1_2.Size = UDim2.new(0, 50, 0, 50)
+_1_1_2.Font = Enum.Font.SourceSans
+_1_1_2.Text = "1_-1"
+_1_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_1_2.TextSize = 14.000
+_1_1_2.MouseButton1Click:connect(function()
+	local A_1 = "1_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_1_3.Name = "2_-1"
+_2_1_3.Parent = Frame
+_2_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_1_3.Position = UDim2.new(0.472035825, 0, 0.439325124, 0)
+_2_1_3.Size = UDim2.new(0, 50, 0, 50)
+_2_1_3.Font = Enum.Font.SourceSans
+_2_1_3.Text = "2_-1"
+_2_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_1_3.TextSize = 14.000
+_2_1_3.MouseButton1Click:connect(function()
+	local A_1 = "2_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_1_3.Name = "3_-1"
+_3_1_3.Parent = Frame
+_3_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_1_3.Position = UDim2.new(0.551454186, 0, 0.439325124, 0)
+_3_1_3.Size = UDim2.new(0, 50, 0, 50)
+_3_1_3.Font = Enum.Font.SourceSans
+_3_1_3.Text = "3_-1"
+_3_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_1_3.TextSize = 14.000
+_3_1_3.MouseButton1Click:connect(function()
+	local A_1 = "3_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_1_3.Name = "4_-1"
+_4_1_3.Parent = Frame
+_4_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_1_3.Position = UDim2.new(0.628635406, 0, 0.439325124, 0)
+_4_1_3.Size = UDim2.new(0, 50, 0, 50)
+_4_1_3.Font = Enum.Font.SourceSans
+_4_1_3.Text = "4_-1"
+_4_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_1_3.TextSize = 14.000
+_4_1_3.MouseButton1Click:connect(function()
+	local A_1 = "4_-1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_0_2.Name = "4_0"
+_4_0_2.Parent = Frame
+_4_0_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_0_2.Position = UDim2.new(0.628635406, 0, 0.544746816, 0)
+_4_0_2.Size = UDim2.new(0, 50, 0, 50)
+_4_0_2.Font = Enum.Font.SourceSans
+_4_0_2.Text = "4_0"
+_4_0_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_0_2.TextSize = 14.000
+_4_0_2.MouseButton1Click:connect(function()
+	local A_1 = "4_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_4_4.Name = "4_4"
+_4_4_4.Parent = Frame
+_4_4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_4_4.Position = UDim2.new(0.628635347, 0, 0.924264908, 0)
+_4_4_4.Size = UDim2.new(0, 50, 0, 50)
+_4_4_4.Font = Enum.Font.SourceSans
+_4_4_4.Text = "4_4"
+_4_4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_4_4.TextSize = 14.000
+_4_4_4.MouseButton1Click:connect(function()
+	local A_1 = "4_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_0_2.Name = "3_0"
+_3_0_2.Parent = Frame
+_3_0_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_0_2.Position = UDim2.new(0.550335646, 0, 0.543240786, 0)
+_3_0_2.Size = UDim2.new(0, 50, 0, 50)
+_3_0_2.Font = Enum.Font.SourceSans
+_3_0_2.Text = "3_0"
+_3_0_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_0_2.TextSize = 14.000
+_3_0_2.MouseButton1Click:connect(function()
+	local A_1 = "3_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_0.Name = "-1_0"
+_1_0.Parent = Frame
+_1_0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_0.Position = UDim2.new(0.225950792, 0, 0.544746816, 0)
+_1_0.Size = UDim2.new(0, 50, 0, 50)
+_1_0.Font = Enum.Font.SourceSans
+_1_0.Text = "-1_0"
+_1_0.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_0.TextSize = 14.000
+_1_0.MouseButton1Click:connect(function()
+	local A_1 = "-1_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_0.Name = "0_0"
+_0_0.Parent = Frame
+_0_0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_0.Position = UDim2.new(0.309843421, 0, 0.544746816, 0)
+_0_0.Size = UDim2.new(0, 50, 0, 50)
+_0_0.Font = Enum.Font.SourceSans
+_0_0.Text = "0_0"
+_0_0.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_0.TextSize = 14.000
+_0_0.MouseButton1Click:connect(function()
+	local A_1 = "0_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_0_2.Name = "1_0"
+_1_0_2.Parent = Frame
+_1_0_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_0_2.Position = UDim2.new(0.389261782, 0, 0.544746816, 0)
+_1_0_2.Size = UDim2.new(0, 50, 0, 50)
+_1_0_2.Font = Enum.Font.SourceSans
+_1_0_2.Text = "1_0"
+_1_0_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_0_2.TextSize = 14.000
+_1_0_2.MouseButton1Click:connect(function()
+	local A_1 = "1_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_0_2.Name = "2_0"
+_2_0_2.Parent = Frame
+_2_0_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_0_2.Position = UDim2.new(0.472035825, 0, 0.544746816, 0)
+_2_0_2.Size = UDim2.new(0, 50, 0, 50)
+_2_0_2.Font = Enum.Font.SourceSans
+_2_0_2.Text = "2_0"
+_2_0_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_0_2.TextSize = 14.000
+_2_0_2.MouseButton1Click:connect(function()
+	local A_1 = "2_0"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_4_4.Name = "3_4"
+_3_4_4.Parent = Frame
+_3_4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_4_4.Position = UDim2.new(0.550335586, 0, 0.924264908, 0)
+_3_4_4.Size = UDim2.new(0, 50, 0, 50)
+_3_4_4.Font = Enum.Font.SourceSans
+_3_4_4.Text = "3_4"
+_3_4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_4_4.TextSize = 14.000
+_3_4_4.MouseButton1Click:connect(function()
+	local A_1 = "3_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_1_3.Name = "-1_1"
+_1_1_3.Parent = Frame
+_1_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_1_3.Position = UDim2.new(0.225950807, 0, 0.644144416, 0)
+_1_1_3.Size = UDim2.new(0, 50, 0, 50)
+_1_1_3.Font = Enum.Font.SourceSans
+_1_1_3.Text = "-1_1"
+_1_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_1_3.TextSize = 14.000
+_1_1_3.MouseButton1Click:connect(function()
+	local A_1 = "-1_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_1_2.Name = "0_1"
+_0_1_2.Parent = Frame
+_0_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_1_2.Position = UDim2.new(0.309843421, 0, 0.642638385, 0)
+_0_1_2.Size = UDim2.new(0, 50, 0, 50)
+_0_1_2.Font = Enum.Font.SourceSans
+_0_1_2.Text = "0_1"
+_0_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_1_2.TextSize = 14.000
+_0_1_2.MouseButton1Click:connect(function()
+	local A_1 = "0_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_4_4.Name = "2_4"
+_2_4_4.Parent = Frame
+_2_4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_4_4.Position = UDim2.new(0.470917225, 0, 0.922758877, 0)
+_2_4_4.Size = UDim2.new(0, 50, 0, 50)
+_2_4_4.Font = Enum.Font.SourceSans
+_2_4_4.Text = "2_4"
+_2_4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_4_4.TextSize = 14.000
+_2_4_4.MouseButton1Click:connect(function()
+	local A_1 = "2_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_1_4.Name = "1_1"
+_1_1_4.Parent = Frame
+_1_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_1_4.Position = UDim2.new(0.389261782, 0, 0.644144416, 0)
+_1_1_4.Size = UDim2.new(0, 50, 0, 50)
+_1_1_4.Font = Enum.Font.SourceSans
+_1_1_4.Text = "1_1"
+_1_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_1_4.TextSize = 14.000
+_1_1_4.MouseButton1Click:connect(function()
+	local A_1 = "1_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_1_4.Name = "2_1"
+_2_1_4.Parent = Frame
+_2_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_1_4.Position = UDim2.new(0.472035825, 0, 0.642638385, 0)
+_2_1_4.Size = UDim2.new(0, 50, 0, 50)
+_2_1_4.Font = Enum.Font.SourceSans
+_2_1_4.Text = "2_1"
+_2_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_1_4.TextSize = 14.000
+_2_1_4.MouseButton1Click:connect(function()
+	local A_1 = "2_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_1_4.Name = "3_1"
+_3_1_4.Parent = Frame
+_3_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_1_4.Position = UDim2.new(0.551454186, 0, 0.642638385, 0)
+_3_1_4.Size = UDim2.new(0, 50, 0, 50)
+_3_1_4.Font = Enum.Font.SourceSans
+_3_1_4.Text = "3_1"
+_3_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_1_4.TextSize = 14.000
+_3_1_4.MouseButton1Click:connect(function()
+	local A_1 = "3_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_1_4.Name = "4_1"
+_4_1_4.Parent = Frame
+_4_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_1_4.Position = UDim2.new(0.628635406, 0, 0.642638385, 0)
+_4_1_4.Size = UDim2.new(0, 50, 0, 50)
+_4_1_4.Font = Enum.Font.SourceSans
+_4_1_4.Text = "4_1"
+_4_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_1_4.TextSize = 14.000
+_4_1_4.MouseButton1Click:connect(function()
+	local A_1 = "4_1"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_2_4.Name = "4_2"
+_4_2_4.Parent = Frame
+_4_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_2_4.Position = UDim2.new(0.628635406, 0, 0.742035985, 0)
+_4_2_4.Size = UDim2.new(0, 50, 0, 50)
+_4_2_4.Font = Enum.Font.SourceSans
+_4_2_4.Text = "4_-2"
+_4_2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_2_4.TextSize = 14.000
+_4_2_4.MouseButton1Click:connect(function()
+	local A_1 = "4_-2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_2_4.Name = "3_2"
+_3_2_4.Parent = Frame
+_3_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_2_4.Position = UDim2.new(0.550335646, 0, 0.742035985, 0)
+_3_2_4.Size = UDim2.new(0, 50, 0, 50)
+_3_2_4.Font = Enum.Font.SourceSans
+_3_2_4.Text = "3_2"
+_3_2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_2_4.TextSize = 14.000
+_3_2_4.MouseButton1Click:connect(function()
+	local A_1 = "3_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_2_4.Name = "2_2"
+_2_2_4.Parent = Frame
+_2_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_2_4.Position = UDim2.new(0.470917284, 0, 0.742035985, 0)
+_2_2_4.Size = UDim2.new(0, 50, 0, 50)
+_2_2_4.Font = Enum.Font.SourceSans
+_2_2_4.Text = "2_2"
+_2_2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_2_4.TextSize = 14.000
+_2_2_4.MouseButton1Click:connect(function()
+	local A_1 = "2_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_4_3.Name = "1_4"
+_1_4_3.Parent = Frame
+_1_4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_4_3.Position = UDim2.new(0.388143182, 0, 0.922758877, 0)
+_1_4_3.Size = UDim2.new(0, 50, 0, 50)
+_1_4_3.Font = Enum.Font.SourceSans
+_1_4_3.Text = "1_4"
+_1_4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4_3.TextSize = 14.000
+_1_4_3.MouseButton1Click:connect(function()
+	local A_1 = "1_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_2_3.Name = "1_2"
+_1_2_3.Parent = Frame
+_1_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2_3.Position = UDim2.new(0.388143241, 0, 0.742035985, 0)
+_1_2_3.Size = UDim2.new(0, 50, 0, 50)
+_1_2_3.Font = Enum.Font.SourceSans
+_1_2_3.Text = "1_2"
+_1_2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2_3.TextSize = 14.000
+_1_2_3.MouseButton1Click:connect(function()
+	local A_1 = "1_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_2_2.Name = "0_2"
+_0_2_2.Parent = Frame
+_0_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_2_2.Position = UDim2.new(0.30872488, 0, 0.742035985, 0)
+_0_2_2.Size = UDim2.new(0, 50, 0, 50)
+_0_2_2.Font = Enum.Font.SourceSans
+_0_2_2.Text = "0_2"
+_0_2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_2_2.TextSize = 14.000
+_0_2_2.MouseButton1Click:connect(function()
+	local A_1 = "0_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_2_4.Name = "-1_2"
+_1_2_4.Parent = Frame
+_1_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2_4.Position = UDim2.new(0.225950837, 0, 0.742035985, 0)
+_1_2_4.Size = UDim2.new(0, 50, 0, 50)
+_1_2_4.Font = Enum.Font.SourceSans
+_1_2_4.Text = "-1_2"
+_1_2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2_4.TextSize = 14.000
+_1_2_4.MouseButton1Click:connect(function()
+	local A_1 = "-1_2"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_3_3.Name = "-1_3"
+_1_3_3.Parent = Frame
+_1_3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3_3.Position = UDim2.new(0.225950837, 0, 0.836915493, 0)
+_1_3_3.Size = UDim2.new(0, 50, 0, 50)
+_1_3_3.Font = Enum.Font.SourceSans
+_1_3_3.Text = "-1_3"
+_1_3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3_3.TextSize = 14.000
+_1_3_3.MouseButton1Click:connect(function()
+	local A_1 = "-1_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_3_2.Name = "0_3"
+_0_3_2.Parent = Frame
+_0_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_3_2.Position = UDim2.new(0.30872488, 0, 0.836915493, 0)
+_0_3_2.Size = UDim2.new(0, 50, 0, 50)
+_0_3_2.Font = Enum.Font.SourceSans
+_0_3_2.Text = "0_3"
+_0_3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_3_2.TextSize = 14.000
+_0_3_2.MouseButton1Click:connect(function()
+	local A_1 = "0_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_3_4.Name = "1_3"
+_1_3_4.Parent = Frame
+_1_3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3_4.Position = UDim2.new(0.388143212, 0, 0.836915493, 0)
+_1_3_4.Size = UDim2.new(0, 50, 0, 50)
+_1_3_4.Font = Enum.Font.SourceSans
+_1_3_4.Text = "1_3"
+_1_3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3_4.TextSize = 14.000
+_1_3_4.MouseButton1Click:connect(function()
+	local A_1 = "1_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_2_3_4.Name = "2_3"
+_2_3_4.Parent = Frame
+_2_3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_3_4.Position = UDim2.new(0.470917255, 0, 0.836915493, 0)
+_2_3_4.Size = UDim2.new(0, 50, 0, 50)
+_2_3_4.Font = Enum.Font.SourceSans
+_2_3_4.Text = "2_3"
+_2_3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2_3_4.TextSize = 14.000
+_2_3_4.MouseButton1Click:connect(function()
+	local A_1 = "2_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_3_3_4.Name = "3_3"
+_3_3_4.Parent = Frame
+_3_3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_3_4.Position = UDim2.new(0.550335586, 0, 0.836915493, 0)
+_3_3_4.Size = UDim2.new(0, 50, 0, 50)
+_3_3_4.Font = Enum.Font.SourceSans
+_3_3_4.Text = "3_3"
+_3_3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3_3_4.TextSize = 14.000
+_3_3_4.MouseButton1Click:connect(function()
+	local A_1 = "3_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_4_3_4.Name = "4_3"
+_4_3_4.Parent = Frame
+_4_3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4_3_4.Position = UDim2.new(0.628635347, 0, 0.836915493, 0)
+_4_3_4.Size = UDim2.new(0, 50, 0, 50)
+_4_3_4.Font = Enum.Font.SourceSans
+_4_3_4.Text = "4_3"
+_4_3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4_3_4.TextSize = 14.000
+_4_3_4.MouseButton1Click:connect(function()
+	local A_1 = "4_3"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_1_4_4.Name = "-1_4"
+_1_4_4.Parent = Frame
+_1_4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_4_4.Position = UDim2.new(0.225950778, 0, 0.924264908, 0)
+_1_4_4.Size = UDim2.new(0, 50, 0, 50)
+_1_4_4.Font = Enum.Font.SourceSans
+_1_4_4.Text = "-1_4"
+_1_4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4_4.TextSize = 14.000
+_1_4_4.MouseButton1Click:connect(function()
+	local A_1 = "-1_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+_0_4_2.Name = "0_4"
+_0_4_2.Parent = Frame
+_0_4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0_4_2.Position = UDim2.new(0.308724821, 0, 0.924264908, 0)
+_0_4_2.Size = UDim2.new(0, 50, 0, 50)
+_0_4_2.Font = Enum.Font.SourceSans
+_0_4_2.Text = "0_4"
+_0_4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_0_4_2.TextSize = 14.000
+_0_4_2.MouseButton1Click:connect(function()
+	local A_1 = "0_4"
+	local Event = game:GetService("ReplicatedStorage").Communication.Remotes.ExpandIsland
+	Event:FireServer(A_1)
+end)
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(134, 255, 142)
+TextButton.Position = UDim2.new(0, 0, 0.547116756, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Open / Close"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+-- Scripts:
+
+local function TGNISM_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	local frame = script.Parent.Parent.Frame
+	
+	script.Parent.MouseButton1Click:connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(TGNISM_fake_script)()
