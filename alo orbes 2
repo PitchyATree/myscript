@@ -1,0 +1,5 @@
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer("1",true)
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer("2",true)
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer("3",true)
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer("4",true)
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer("5",true)
