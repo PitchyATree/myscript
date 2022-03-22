@@ -1,0 +1,37 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library'))()
+local window = library:Window("lepain script")
+window:Button("start 24kgoldn event", function()     
+    game:GetService("ReplicatedStorage").Packages.Knit.Services.ElDoradoService.RF.StartQuest:InvokeServer()    
+end)
+window:Button("gold", function()     
+       local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -81.3883667, 2.95489502, -125.219528, -0.111077487, 6.96535949e-08, -0.993811727, 9.14356946e-09, 1, 6.90653437e-08, 0.993811727, -1.41538137e-09, -0.111077487 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+end)
+window:Button("red", function()     
+      local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 266.817078, 157.620407, 963.374451, 0.0697100163, 0.367145777, -0.927547574, 0.0231845472, 0.928962111, 0.369448036, 0.997297883, -0.0472590327, 0.0562458932 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location  
+end)
+window:Button("green ", function()     
+       local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 133.084991, 157.470154, 1036.09595, 0.237997144, -0.323628724, 0.915762901, 0.0199267026, 0.944283605, 0.328529119, -0.971061468, -0.0599408746, 0.231185675 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+end)
+window:Button("blue ", function()     
+        local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -86.4719086, 152.213425, 1049.97949, -0.353553653, -0.0536176637, 0.933876276, 0.00523008965, 0.99822706, 0.0592923425, -0.935399652, 0.0258472823, -0.352646351 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
