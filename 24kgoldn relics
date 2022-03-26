@@ -1,0 +1,47 @@
+getgenv()._24kconcert = true
+
+while wait() do
+    if getgenv()._24kconcert == true then
+
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(2271.49, 26, -8294.51 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+
+wait(0.2)
+
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-15901.2, 1264.95, 138.277)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+
+wait(0.2)
+
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-15936.2, 1317.95, 138.277)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+
+wait(0.2)
+
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(118.272, 74.8371, -1067.23 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location 
+
+wait(0.2)
+
+end
+end
