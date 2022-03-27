@@ -4,6 +4,9 @@ while wait() do
     if getgenv()._24kconcert == true then
 
 
+
+
+
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(2271.49, 26, -8294.51 )
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
