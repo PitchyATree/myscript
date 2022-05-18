@@ -1,0 +1,69 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.100
+Frame.Position = UDim2.new(0.382445127, 0, 0.365591377, 0)
+Frame.Size = UDim2.new(0, 300, 0, 150)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(35, 215, 255)
+TextButton_2.Position = UDim2.new(0.566666603, 0, 0.333333313, 0)
+TextButton_2.Size = UDim2.new(0, 100, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Coins TP"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Click:connect(function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/myscript/main/lucid%20coin%201',true))()
+
+wait(1)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/myscript/main/lucid%20coin%202',true))()
+
+
+
+
+end)
+
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_2.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 215, 255)
+TextButton_3.Position = UDim2.new(0.0999999046, 0, 0.333333313, 0)
+TextButton_3.Size = UDim2.new(0, 100, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Minigame Badge"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+TextButton_3.MouseButton1Click:connect(function()
+	game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.AwardBadge:FireServer("Skydive")
+end)
+
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_3.Parent = TextButton_3
