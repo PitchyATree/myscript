@@ -1,0 +1,102 @@
+local ilovsexploit = Instance.new("ScreenGui")
+local imnotjoking = Instance.new("Frame")
+local ee = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local eeeee = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local eee = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local eeee = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local e = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+
+
+--Properties:
+
+ilovsexploit.Name = " i lov sexploit"
+ilovsexploit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ilovsexploit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+imnotjoking.Name = "i'm not joking"
+imnotjoking.Parent = ilovsexploit
+imnotjoking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+imnotjoking.BackgroundTransparency = 0.200
+imnotjoking.Position = UDim2.new(0.3393417, 0, 0.295698911, 0)
+imnotjoking.Size = UDim2.new(0, 409, 0, 227)
+
+ee.Name = "ee"
+ee.Parent = imnotjoking
+ee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+ee.Position = UDim2.new(0.0391198061, 0, 0.682819366, 0)
+ee.Size = UDim2.new(0, 100, 0, 50)
+ee.Font = Enum.Font.SourceSans
+ee.Text = "coin"
+ee.TextColor3 = Color3.fromRGB(0, 0, 0)
+ee.TextScaled = true
+ee.TextSize = 14.000
+ee.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0.100000001, 8)
+UICorner.Parent = ee
+
+eeeee.Name = "eeeee"
+eeeee.Parent = imnotjoking
+eeeee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+eeeee.Position = UDim2.new(0.0391198061, 0, 0.387665182, 0)
+eeeee.Size = UDim2.new(0, 100, 0, 50)
+eeeee.Font = Enum.Font.SourceSans
+eeeee.Text = "face badge"
+eeeee.TextColor3 = Color3.fromRGB(0, 0, 0)
+eeeee.TextScaled = true
+eeeee.TextSize = 14.000
+eeeee.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_2.Parent = eeeee
+
+eee.Name = "eee"
+eee.Parent = imnotjoking
+eee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+eee.Position = UDim2.new(0.0391198061, 0, 0.105726868, 0)
+eee.Size = UDim2.new(0, 100, 0, 50)
+eee.Font = Enum.Font.SourceSans
+eee.Text = "minigame 1 "
+eee.TextColor3 = Color3.fromRGB(0, 0, 0)
+eee.TextScaled = true
+eee.TextSize = 14.000
+eee.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_3.Parent = eee
+
+eeee.Name = "eeee"
+eeee.Parent = imnotjoking
+eeee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+eeee.Position = UDim2.new(0.337408304, 0, 0.682819366, 0)
+eeee.Size = UDim2.new(0, 100, 0, 50)
+eeee.Font = Enum.Font.SourceSans
+eeee.Text = "minigame 2 "
+eeee.TextColor3 = Color3.fromRGB(0, 0, 0)
+eeee.TextScaled = true
+eeee.TextSize = 14.000
+eeee.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_4.Parent = eeee
+
+e.Name = "e"
+e.Parent = imnotjoking
+e.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+e.Position = UDim2.new(0.337408304, 0, 0.387665182, 0)
+e.Size = UDim2.new(0, 100, 0, 50)
+e.Font = Enum.Font.SourceSans
+e.Text = "sony"
+e.TextColor3 = Color3.fromRGB(0, 0, 0)
+e.TextScaled = true
+e.TextSize = 14.000
+e.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_5.Parent = e
+
