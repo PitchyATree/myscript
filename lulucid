@@ -8,8 +8,6 @@ local eeeee = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local eee = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local eeee = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
 local e = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 
@@ -81,48 +79,33 @@ eee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
 eee.Position = UDim2.new(0.0391198061, 0, 0.105726868, 0)
 eee.Size = UDim2.new(0, 100, 0, 50)
 eee.Font = Enum.Font.SourceSans
-eee.Text = "minigame 1 "
+eee.Text = "minigame "
 eee.TextColor3 = Color3.fromRGB(0, 0, 0)
 eee.TextScaled = true
 eee.TextSize = 14.000
 eee.TextWrapped = true
 eee.MouseButton1Click:connect(function()
 
-while wait(0.2) do
-if getgenv().wowowowow == true 
-game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.AddScore:FireServer(99999999999)
-end
-end
 
 
 game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.TriggeredBagDiveEvent:FireServer()
 
-wait(5)
+while wait(0.2) do
+if getgenv().wowowowow == true then
 
-game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.Landed2:FireServer()
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.AddScore:FireServer(99999999999)
+
+end
+end
+
+
 
 end)
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_3.Parent = eee
 
-eeee.Name = "eeee"
-eeee.Parent = imnotjoking
-eeee.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
-eeee.Position = UDim2.new(0.337408304, 0, 0.682819366, 0)
-eeee.Size = UDim2.new(0, 100, 0, 50)
-eeee.Font = Enum.Font.SourceSans
-eeee.Text = "minigame 2 "
-eeee.TextColor3 = Color3.fromRGB(0, 0, 0)
-eeee.TextScaled = true
-eeee.TextSize = 14.000
-eeee.TextWrapped = true
-eeee.MouseButton1Click:connect(function()
-game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.RaceGameEndedEvent:FireServer(game:GetService("Players").LocalPlayer)
-end)
 
-UICorner_4.CornerRadius = UDim.new(0.100000001, 8)
-UICorner_4.Parent = eeee
 
 e.Name = "e"
 e.Parent = imnotjoking
@@ -141,4 +124,3 @@ end)
 
 UICorner_5.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_5.Parent = e
-
