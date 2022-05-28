@@ -1,3 +1,5 @@
+getgenv().wowowowow = true 
+
 local ilovsexploit = Instance.new("ScreenGui")
 local imnotjoking = Instance.new("Frame")
 local ee = Instance.new("TextButton")
@@ -36,6 +38,9 @@ ee.TextColor3 = Color3.fromRGB(0, 0, 0)
 ee.TextScaled = true
 ee.TextSize = 14.000
 ee.TextWrapped = true
+ee.MouseButton1Click:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/myscript/main/lucid%20coin%2059475',true))()
+end)
 
 UICorner.CornerRadius = UDim.new(0.100000001, 8)
 UICorner.Parent = ee
@@ -51,6 +56,21 @@ eeeee.TextColor3 = Color3.fromRGB(0, 0, 0)
 eeeee.TextScaled = true
 eeeee.TextSize = 14.000
 eeeee.TextWrapped = true
+eeeee.MouseButton1Click:connect(function()
+
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.LogFace:FireServer("Red")
+
+wait(0.1)
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.LogFace:FireServer("Cap")
+
+wait(0.1)
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.LogFace:FireServer("Coy")
+
+wait(0.1)
+
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.LogFace:FireServer("Unr")
+
+end)
 
 UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_2.Parent = eeeee
@@ -66,6 +86,22 @@ eee.TextColor3 = Color3.fromRGB(0, 0, 0)
 eee.TextScaled = true
 eee.TextSize = 14.000
 eee.TextWrapped = true
+eee.MouseButton1Click:connect(function()
+
+while wait(0.2) do
+if getgenv().wowowowow == true 
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.AddScore:FireServer(99999999999)
+end
+end
+
+
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.TriggeredBagDiveEvent:FireServer()
+
+wait(5)
+
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.Landed2:FireServer()
+
+end)
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_3.Parent = eee
@@ -81,6 +117,9 @@ eeee.TextColor3 = Color3.fromRGB(0, 0, 0)
 eeee.TextScaled = true
 eeee.TextSize = 14.000
 eeee.TextWrapped = true
+eeee.MouseButton1Click:connect(function()
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.RaceGameEndedEvent:FireServer(game:GetService("Players").LocalPlayer)
+end)
 
 UICorner_4.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_4.Parent = eeee
@@ -96,6 +135,9 @@ e.TextColor3 = Color3.fromRGB(0, 0, 0)
 e.TextScaled = true
 e.TextSize = 14.000
 e.TextWrapped = true
+e.MouseButton1Click:connect(function()
+game:GetService("ReplicatedStorage").OrchestraScenes.PSV.Events.AwardBadge:FireServer("SONY")
+end)
 
 UICorner_5.CornerRadius = UDim.new(0.100000001, 8)
 UICorner_5.Parent = e
