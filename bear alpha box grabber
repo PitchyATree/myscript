@@ -1,0 +1,15 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("PitchHub - bear christmas")
+window:Toggle("xmas box ", false, function(bool)  -- you can change window to the ui you want the toggle in 
+     getgenv().FartingAt3AM = bool
+     while wait(0.1) do
+         if getgenv().FartingAt3AM == true then
+             local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i,v in pairs(game.Workspace.Map.Presents.Present:GetDescendants()) do
+if v.Name == "Box" then
+v.CFrame = me.CFrame
+end
+end
+end
+end 
+end)
