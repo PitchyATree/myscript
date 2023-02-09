@@ -1,5 +1,5 @@
 while wait(1) do
-		if getgenv().quidzz == true then
+		if getgenv().quidzzz == true then
 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 			local location = CFrame.new( 243.389191, 10.4933968, -928.5, 0, 0, 1, 0, 1, -0, -1, 0, 0)
