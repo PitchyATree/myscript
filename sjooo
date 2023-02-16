@@ -44,6 +44,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/
         end-- bool is true or false depending on the state of the toggle
 end)
 
-window:Slider("Example Slider",0,1000,20, function(value)
+window:Slider("Jump",0,1000,20, function(value)
    game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
 end)
