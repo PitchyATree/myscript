@@ -28,6 +28,8 @@ window:Toggle("auto rebirth", true, function(bool)  -- you can change window to 
     while wait(0.5) do 
         if getgenv().autorebirth_00 == true then 
             
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 32
+           
             loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/sjo%20obby%203_1"))()
 
 wait(0.1)
