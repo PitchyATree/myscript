@@ -21,7 +21,16 @@ pl.CFrame = location
 
 end)
 
+window:Button("?", function()     
 
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(349.635, -155.254, 6637.63 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+end)
 
 window:Toggle("auto rebirth", true, function(bool)  -- you can change window to the ui you want the toggle in 
     getgenv().autorebirth_00 = bool
