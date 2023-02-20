@@ -1,0 +1,84 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version'))()
+local window = library:Window("PitchHub - BABWB")
+window:Toggle("chest autofarm", false, function(bool)-- you can change window to the ui you want the toggle in 
+    getgenv().autofarm = bool 
+    while true do
+if getgenv().autofarm == true then
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 371.984, 144.15, 21.7186)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 944.433, 150.968, 40.8436)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 1515.76, 140.204, 23.4747)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(2069.63, 163.111, 20.793 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(2627.1, 146.574, 56.397 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(3174.23, 156.166, 49.3222 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(3930.18, -158.937, 54.2087 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+wait(0.1)
+
+local virtualUser = game:GetService('VirtualUser')
+virtualUser:CaptureController()
+virtualUser:SetKeyDown('0x65') --0x65 is the "E" Key. you can find all key codes here: https://docs.microsoft.com/de-de/windows/win32/inputdev/virtual-key-codes
+wait(1.5)
+virtualUser:SetKeyUp('0x65')
+
+
+
+end
+if getgenv().autofarm == false then
+wait(1)
+end
+end
+end)
