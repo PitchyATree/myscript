@@ -74,11 +74,11 @@ virtualUser:SetKeyDown('0x65') --0x65 is the "E" Key. you can find all key codes
 wait(1.5)
 virtualUser:SetKeyUp('0x65')
 
-
+wait(15)
 
 end
 if getgenv().autofarm == false then
-wait(1)
+wait(0)
 end
 end
 end)
