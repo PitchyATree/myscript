@@ -1,0 +1,150 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library'))()
+local window = library:Window("Earth")
+local window2 = library:Window("Moon")
+local window3 = library:Window("Rebirth")
+local window6 = library:Window("Obby")
+local window7 = library:Window("Misc")
+window:Toggle("auto win", false, function(bool)
+getgenv().win_1 = bool
+
+while wait() do
+    if getgenv().win_1 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1010.5, 1329.76, 38 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -1118.55, 1326.85, 38)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
+window:Label("Mountain", Color3.fromRGB(127, 143, 166))
+
+window:Toggle("auto win", false, function(bool)
+getgenv().win_2 = bool
+
+while wait() do
+    if getgenv().win_2 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1010.5, 2645.25, 251 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -1118.55, 2642.34, 251)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
+
+    window:Label("Desert", Color3.fromRGB(127, 143, 166))
+
+window:Toggle("auto win", false, function(bool)
+getgenv().win_3 = bool
+
+while wait() do
+    if getgenv().win_3 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1010.5, 5276.25, 464 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1118.55, 5273.34, 464 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
+
+        window:Label("Candyland", Color3.fromRGB(127, 143, 166))
+
+window:Toggle("auto win", false, function(bool)
+getgenv().win_4 = bool
+
+while wait() do
+    if getgenv().win_4 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1010.5, 10538.2, 677 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -1118.55, 10535.3, 677)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
+
+        window:Label("Ice", Color3.fromRGB(127, 143, 166))
+
+window:Toggle("auto win", false, function(bool)
+getgenv().win_5 = bool
+
+while wait() do
+    if getgenv().win_5 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -1010.5, 21062.2, 890)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1118.55, 21059.3, 890 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
+
+    window2:Toggle("auto win", false, function(bool)
+getgenv().win_6 = bool
+
+while wait() do
+    if getgenv().win_6 == true then
+    wait(1)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1010.5, 42110.2, 1103 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -1118.55, 42107.3, 1103)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+    end
+end
+    end)
